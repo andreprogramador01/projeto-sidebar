@@ -1,0 +1,89 @@
+.barra-lateral{
+    width: 250px;
+    height:calc(100vh - 25px);
+    background: #18C29C;
+    padding:24px 0px 0 0px;
+    transition: 0.5s;
+    position: relative;
+}
+.mover{
+    width: 78px;
+    
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin:0 14px 26px 14px; 
+}
+.topo-menu{
+    cursor:pointer;
+}
+.buscar{
+    height: 50.92px;
+    background: #8ED7C6;
+    border-radius: 12px;
+    display: flex;
+    align-items:center;
+    margin-top:26.8px;
+    overflow:hidden;
+    margin:0 14px;
+    
+}
+.buscar form{
+    display: flex;
+    align-items:center;
+    padding-left:13px;
+    overflow:hidden;
+    
+}
+.buscar input{
+    width: 160px;
+    background: transparent;
+    border:none;
+    outline:none;
+    padding-left:13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #084236;
+    overflow:hidden;
+}
+.linha{
+    display: flex;
+    align-items:center;
+    margin:20px 13px 35px 13px ;
+    gap:13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #084236;
+    overflow: hidden;
+    padding: 0 14px;
+}
+.perfil{
+    display:flex;
+    align-items:center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    background: #8ED7C6;;
+    color: #084236;
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.perfil-avatar{
+    margin-left: 14px;
+    margin-right: 9px;
+}
+.perfil-descricao{
+    margin-right:47px;
+}
